@@ -1,13 +1,9 @@
 <script setup lang="ts">
-import { defineProps, withDefaults, defineEmits } from "vue";
-
+import { defineProps, defineEmits } from "vue";
+import { ImageProps } from "@/types/index";
 import XIcon from "@/components/icons/XIcon.vue";
-const props = withDefaults(
-  defineProps<{
-    image: string;
-  }>(),
-  {}
-);
+
+const props = defineProps<ImageProps>();
 defineEmits(["close"]);
 </script>
 

@@ -1,21 +1,11 @@
 <script setup lang="ts">
-import { defineProps, ref, withDefaults } from "vue";
+import { defineProps, ref } from "vue";
+import { CardProps } from "@/types/index";
 import axios from "axios";
 import PhotoPopup from "@/components/PhotoPopup.vue";
-
 import DownloadIcon from "@/components/icons/Download.vue";
 
-const props = withDefaults(
-  defineProps<{
-    img: string;
-    name: string;
-    attrib: string;
-    imgcap: string;
-    id: number;
-    img_large: string;
-  }>(),
-  {}
-);
+const props = defineProps<CardProps>();
 
 const showImagePopup = ref(false);
 

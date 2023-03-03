@@ -11,6 +11,7 @@ const photos = computed(() => store.$state.photos);
 
 onMounted(async () => {
   await store.fetchPhotos(randomWords(1)[0]);
+  await store.fetchVideos(randomWords(1)[0]);
 });
 
 // methods
