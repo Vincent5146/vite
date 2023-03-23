@@ -46,18 +46,3 @@ export interface RootState {
   photos?: photo[];
   videos?: video[];
 }
-
-export interface CardProps {
-  img: string;
-  name: string;
-  attrib: string;
-  imgcap: string;
-  id: number;
-  img_large: string;
-}
-export interface ImageProps {
-  image: string;
-}
-export interface PhotoProps {
-  image: string;
-}

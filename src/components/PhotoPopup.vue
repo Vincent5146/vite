@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { defineProps, defineEmits } from "vue";
-import { PhotoProps } from "@/types/index";
 import XIcon from "@/components/icons/XIcon.vue";
 
-const props = defineProps<PhotoProps>();
+const props = defineProps<{
+  image: string;
+}>();
 defineEmits(["close"]);
 </script>
 
