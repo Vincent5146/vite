@@ -7,7 +7,7 @@
       style="background-color: rgba(0, 0, 0, 0.2)"
     >
       © {{ new Date().getFullYear() }} Copyright:
-      <a class="text-gray-800" href="https://pexelry.netlify.app"> Pexelry</a>
+      <a class="text-gray-800" href="https://pexelry.netlify.app"> Vite</a>
     </div>
   </footer>
 </template>

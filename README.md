@@ -5,7 +5,7 @@
 
 ## Build Setup
 
-Pexelry is built with:
+Vite is built with:
 
 - [x] Vue.js
 - [x] Pinia

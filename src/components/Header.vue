@@ -13,8 +13,9 @@
         />
         <span
           class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-          >Pexelry</span
         >
+          Vite
+        </span>
       </a>
       <div class="flex items-center lg:order-2">
         <router-link

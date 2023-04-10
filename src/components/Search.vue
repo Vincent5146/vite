@@ -31,7 +31,7 @@ function getSearch() {
       class="w-full h-[400px] py-10 bg-cover bg-no-repeat bg-center bg-[url('https://images.pexels.com/photos/14700386/pexels-photo-14700386.jpeg')]"
     >
       <div class="text-center pt-10">
-        <h1 class="font-bold text-8xl">Pexelry</h1>
+        <h1 class="font-bold text-8xl">Vite</h1>
         <p class="text-3xl mt-6">pic it</p>
       </div>
       <div class="text-center my-6">

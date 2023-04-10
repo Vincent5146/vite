@@ -26,7 +26,7 @@ function getDownload() {
     var fileLink = document.createElement("a");
     fileLink.href = fileUrl;
 
-    fileLink.setAttribute("download", "pexelry download.jpeg");
+    fileLink.setAttribute("download", "vite download.jpeg");
     document.body.appendChild(fileLink);
     fileLink.click();
   });
